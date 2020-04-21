@@ -1,0 +1,21 @@
+body {
+    font-family: upgrade, sans-serif;
+    background-color: $color-background;
+    color: white;
+    margin: 1vh 2vw;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+h1 {
+    margin-top: 10vh;
+    font-family: neplus, serif;
+    font-size: 16vw;
+    line-height: 13vw;
+    width: 700px;
+    font-weight: 400;
+    color: $color-black-fade;
+}
