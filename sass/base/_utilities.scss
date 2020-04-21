@@ -13,13 +13,16 @@
         height: 50px;
         opacity: 0;
         /* hamburger amination to x */
-        &:checked+.hamburger>div {
-            transform: rotate(135deg);
-        }
-        &:checked+.hamburger>div:before,
-        &:checked+.hamburger>div:after {
-            top: 0;
-            transform: rotate(90deg);
+        &:checked+.hamburger {
+            background-color: transparent;
+            >div {
+                transform: rotate(135deg);
+                &:before,
+                &:after {
+                    top: 0;
+                    transform: rotate(90deg);
+                }
+            }
         }
         /* rotate on hover */
         &:checked:hover+.hamburger>div {
@@ -29,7 +32,7 @@
         &:checked~.menu {
             visibility: visible;
             >.navs-wrap {
-                transform: scale(1);
+                transform: translateY(0);
                 transition-duration: 0.4s;
                 nav {
                     opacity: 1;
@@ -51,6 +54,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        transition: background-color 10ms ease;
         /* hambuerger lines */
         >div {
             position: relative;
@@ -77,30 +81,35 @@
         }
     }
     .menu {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
+        position: relative;
         visibility: hidden;
-        overflow: hidden;
         display: flex;
         align-items: center;
         justify-content: center;
         .navs-wrap {
             background-color: $color-black-fade;
-            border-radius: 50%;
-            width: 200vw;
-            height: 200vh;
+            width: 100vw;
+            height: 50vh;
+            transform: translateY(-50vh);
             display: flex;
             flex: none;
-            align-items: center;
+            padding-top: 60px;
             justify-content: center;
-            transform: scale(0);
             transition: all 0.4s ease;
             nav {
                 opacity: 0;
                 transition: opacity 0.4s ease;
+                width: 40%;
+                &#main {
+                    font-family: upgrade-lights, sans-serif;
+                    font-weight: 500;
+                    font-style: normal;
+                }
+                &#cat {
+                    font-family: upgrade, sans-serif;
+                    font-weight: 500;
+                    font-style: normal;
+                }
                 li {
                     list-style: none;
                     font-size: 1.5rem;
