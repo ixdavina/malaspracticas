@@ -106,23 +106,22 @@ url: https://www.youtube.com/watch?v=DZg6UfS5zYg
             // clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%);
             display: grid;
             grid-template-columns: 2rem 1fr 1fr 2rem;
-            grid-template-areas: "n n1 n2 n";
             nav {
                 opacity: 0;
                 transition: opacity 0.4s ease;
-                width: 40%;
+                width: 100%;
                 margin-bottom: 6em;
                 h4 {
                     font-size: 1.2rem;
                 }
                 &#main-nav {
-                    grid-area: n1;
+                    grid-column-start: 2;
                     font-family: upgrade-lights, sans-serif;
                     font-weight: 500;
                     font-style: normal;
                 }
                 &#cat-nav {
-                    grid-area: n1;
+                    grid-column-start: 3;
                     font-family: upgrade, sans-serif;
                     font-weight: 500;
                     font-style: normal;
