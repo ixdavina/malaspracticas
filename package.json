@@ -1,0 +1,36 @@
+{
+  "name": "malaspracticas",
+  "version": "1.0.0",
+  "description": "Repositorio de malas practicas de diseño UX",
+  "main": "index.md",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ixdavina/malaspracticas.git"
+  },
+  "keywords": [
+    "patrones",
+    "oscuros",
+    "patrones",
+    "de",
+    "diseño",
+    "dark",
+    "patterns",
+    "malos",
+    "ejemplos"
+  ],
+  "author": "Varios autores",
+  "license": "CC-BY-4.0",
+  "bugs": {
+    "url": "https://github.com/ixdavina/malaspracticas/issues"
+  },
+  "homepage": "https://github.com/ixdavina/malaspracticas#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.10.0"
+  },
+  "dependencies": {
+    "nunjucks": "^3.2.1"
+  }
+}

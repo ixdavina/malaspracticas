@@ -1,0 +1,9 @@
+@media (max-width: 600px) {
+    header {
+        .container {
+            h1 {
+                font-size: $main-header-size * .6;
+            }
+        }
+    }
+}
