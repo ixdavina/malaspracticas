@@ -2,7 +2,15 @@
     header {
         .container {
             h1 {
-                font-size: $main-header-size * .6;
+                font-size: $main-header-size * .65;
+                line-height: $main-header-size * .45;
+            }
+            .tagline {
+                font-size: $main-header-size * .33;
+                transform: none;
+                writing-mode: initial;
+                position: relative;
+                top: unset;
             }
         }
     }

@@ -17,10 +17,10 @@ header {
             color: $color-ahuesado;
             text-transform: uppercase;
             font-weight: 700;
-            font-size: $main-header-size *.25;
+            font-size: $main-header-size *.35;
             writing-mode: sideways-lr;
             height: $main-header-size *.75 * 2;
-            line-height: ($main-header-size *.25) *.75;
+            line-height: ($main-header-size *.35) *.75;
             word-wrap: break-word;
             writing-mode: vertical-rl;
             transform: rotate(180deg);
