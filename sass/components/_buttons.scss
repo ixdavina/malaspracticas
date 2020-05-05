@@ -1,0 +1,15 @@
+.btn {
+    display: inline-block;
+    font-size: $font-size;
+    letter-spacing: .25ex;
+    text-transform: uppercase;
+    color: $color-main;
+    padding: .3ex .5em .5ex .5em;
+    border: 2px solid $color-main;
+    border-radius: .31ex;
+    transition: all .5s ease;
+    &:hover {
+        background-color: $color-main;
+        color: white;
+    }
+}

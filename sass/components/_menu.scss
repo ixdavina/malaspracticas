@@ -99,7 +99,7 @@ url: https://www.youtube.com/watch?v=DZg6UfS5zYg
                     // height: 50vh;
                     transform: translateY(-50vh);
                     flex: none;
-                    padding: 60px 10% 0 10%;
+                    padding: 60px $page-padding 0 $page-padding;
                     justify-content: center;
                     transition: all 0.4s ease;
                     clip-path: polygon(0% 0%, 100% 0%, 100% 83%, 0% 100%);
@@ -112,6 +112,7 @@ url: https://www.youtube.com/watch?v=DZg6UfS5zYg
                         transition: opacity 0.4s ease;
                         width: 100%;
                         margin-bottom: 6em;
+                        color: white;
                         h4 {
                             font-size: 1.2rem;
                         }
@@ -130,6 +131,7 @@ url: https://www.youtube.com/watch?v=DZg6UfS5zYg
                             font-size: 1.2rem;
                             // padding: 1rem;
                             a {
+                                color: white;
                                 display: inline-block;
                                 padding: .4ex 1ex;
                                 transition: color 0.4s ease;

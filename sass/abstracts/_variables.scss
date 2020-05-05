@@ -14,6 +14,8 @@ $page-padding: 3rem;
 /* fonts */
 
 $main-header-size: 150px;
+$font-size: 17px;
+$font-size-lg: 22px;
 @import url("https://use.typekit.net/jah7txk.css");
 
 /* color */
@@ -23,4 +25,4 @@ $color-ahuesado:#fffaf09f;
 $color-background: #c30031;
 $color-black-fade: #20062283;
 $color-type: #200622f8;
-$color-main: #0e5970bf;
+$color-main: $color-background;
