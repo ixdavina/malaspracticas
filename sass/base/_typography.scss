@@ -17,6 +17,10 @@ p {
     hyphens: auto;
 }
 
+p {
+    font-size: $font-size;
+}
+
 a {
     text-decoration: none;
 }

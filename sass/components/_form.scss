@@ -1,0 +1,14 @@
+// formulario
+form {
+    font-size: $font-size;
+    .form-unit {
+        display: grid;
+        grid-template-columns: 30% 70%;
+        margin: 1ex 0;
+    }
+    label {
+        font-weight: 600;
+        text-align: right;
+        margin: 0 1ex 0 0;
+    }
+}
