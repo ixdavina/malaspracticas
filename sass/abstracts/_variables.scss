@@ -16,7 +16,8 @@ $page-padding: 3rem;
 $main-header-size: 150px;
 $font-size: 17px;
 $font-size-lg: 22px;
-@import url("https://use.typekit.net/jah7txk.css");
+// @import url("https://use.typekit.net/jah7txk.css");
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;700;800;900&display=swap');
 
 /* color */
 
@@ -26,3 +27,13 @@ $color-background: #c30031;
 $color-black-fade: #20062283;
 $color-type: #200622f8;
 $color-main: $color-background;
+
+/* cata colors */
+
+$color-blue-dark:#181a33;
+$color-blue:#4a65b6;
+$color-cyan:#29c0cd;
+$color-pink: #f13681;
+$color-green: #c0dc15;
+$color-bone:#E6E5C9;
+$color-white: #F9F9FB;
