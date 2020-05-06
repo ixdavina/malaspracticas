@@ -7,15 +7,16 @@ Variables
 
 /* space */
 
-$width-max: 960px;
+$width-max: 72rem;
 $nav-block-size: 60px;
 $page-padding: 3rem;
 
 /* fonts */
 
-$main-header-size: 150px;
-$font-size: 17px;
-$font-size-lg: 22px;
+$main-header-size: 12rem;
+$font-size: 1.1rem;
+$font-size-lg: 1.4rem;
+$font-size-hero: 3rem;
 // @import url("https://use.typekit.net/jah7txk.css");
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;700;800;900&display=swap');
 

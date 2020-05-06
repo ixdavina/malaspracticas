@@ -1,0 +1,42 @@
+main {
+    margin-bottom: 2em;
+    color: white;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: $width-max;
+    margin: 0 auto;
+}
+
+.col2 {
+    position: relative;
+    display: grid;
+    grid-template-columns: 9fr 5fr;
+    grid-gap: 3em;
+}
+
+.hero {
+    color: white;
+    font-size: $font-size-hero;
+    font-weight: 600;
+}
+
+.action {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    .btn {
+        text-transform: none;
+        letter-spacing: normal;
+        color: white;
+        border: 2px solid white;
+        font-size: $font-size-hero/1.5;
+        vertical-align: middle;
+        margin-bottom: 1em;
+        &:hover {
+            background-color: $color-black-fade;
+        }
+    }
+}
