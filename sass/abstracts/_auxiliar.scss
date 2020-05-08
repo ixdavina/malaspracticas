@@ -17,6 +17,7 @@
 }
 
 .infame {
+    font-weight: 300;
     display: inline-block;
     /* Animation provies a slight random skew. Check bottom of doc for more information on how to random skew. */
     animation: infame-skew 1s infinite linear alternate-reverse;
