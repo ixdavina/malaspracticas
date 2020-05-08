@@ -28,9 +28,16 @@ p {
     }
     article {
         column-span: 1;
-    }
-    a {
-        color: $color-cyan;
+        p {
+            a {
+                transition: all 0.5seg ease;
+                color: $color-cyan;
+                font-weight: 400;
+                &:hover {
+                    color: white
+                }
+            }
+        }
     }
 }
 

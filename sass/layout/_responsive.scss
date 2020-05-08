@@ -1,8 +1,11 @@
 @media (max-width: 800px) {
     header {
         .container {
+            &.narrow {
+                width: 100% !important;
+            }
             h1 {
-                font-size: $main-header-size * .65;
+                font-size: $main-header-size * .55;
                 line-height: $main-header-size * .45;
             }
             .tagline {
