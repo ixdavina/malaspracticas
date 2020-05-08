@@ -1,0 +1,34 @@
+.breadcrumb {
+    z-index: 1;
+    nav {
+        position: absolute;
+        top: 16px;
+        left: 75px;
+        display: inline-block;
+        list-style-type: none;
+        li {
+            list-style-type: none;
+            font-size: 1.2rem;
+            display: inline-block;
+            padding-left: .1884em;
+            &:first-child {
+                a {
+                    color: $color-pink;
+                    font-weight: 800;
+                }
+            }
+            a {
+                font-weight: 300;
+                color: white;
+            }
+            &::before {
+                color: $color-pink;
+                content: '>';
+            }
+        }
+    }
+}
+
+.inactive {
+    filter: opacity(.25);
+}

@@ -29,6 +29,9 @@ p {
     article {
         column-span: 1;
     }
+    a {
+        color: $color-cyan;
+    }
 }
 
 .hero {
