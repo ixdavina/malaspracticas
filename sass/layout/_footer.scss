@@ -1,6 +1,9 @@
 footer {
-    flex: 1;
     background-color: $color-black-fade;
-    color: #f0e7d2f3;
-    padding: 2em 1em;
+    color: white;
+    padding: 1em;
+    p {
+        font-size: $font-size * 0.8;
+        line-height: $font-size;
+    }
 }

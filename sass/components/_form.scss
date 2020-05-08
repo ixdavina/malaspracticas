@@ -1,14 +1,52 @@
 // formulario
 form {
-    font-size: $font-size;
-    .form-unit {
+    font-size: $font-size * 1.3;
+    margin: 1em auto;
+    label {
+        text-align: left;
+    }
+}
+
+.form-unit {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-gap: 1em;
+    margin: 1.5ex 0;
+    label {
+        text-align: right;
+    }
+    fieldset {
+        border: none;
         display: grid;
-        grid-template-columns: 30% 70%;
-        margin: 1ex 0;
+        grid-template-columns: 1em 1fr;
+        grid-template-rows: repeat($font-size * 1.4);
+        grid-column-gap: 1em;
+        grid-row-gap: 1ex;
+        label {
+            text-align: left;
+        }
+        input[type="checkbox"] {
+            margin: 0 0 0 auto;
+            grid-column-start: 1;
+            padding: 0;
+        }
     }
     label {
         font-weight: 600;
-        text-align: right;
-        margin: 0 1ex 0 0;
     }
+}
+
+input,
+select,
+textarea {
+    color: white;
+    border: .2ex solid white;
+    background-color: transparent;
+    border-radius: .5ex;
+    padding: 1ex 1em;
+}
+
+::placeholder {
+    color: rgba(255, 255, 255, .5);
+    font-style: italic;
 }

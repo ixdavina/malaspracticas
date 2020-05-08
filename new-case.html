@@ -49,14 +49,16 @@
 
     <main>
 
-        <div class="container mt">
 
-            <h2>Nuevo aporte</h2>
+        <div class="container narrow">
+            <h1>Nuevo Caso Infame</h1>
 
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae illo rerum facere accusamus. Asperiores minus, quas cum dicta corporis temporibus illum, quidem beatae iusto aut deserunt similique doloribus quo consectetur.</p>
+            <p class="lg">Gracias por compartir un caso que consideras <strong>nefasto</strong>. Publicar estos casos sirve de presedente y argumento para evitar que se sigan produciendo en nuestra industria.</p>
+        </div>
 
+
+        <div class="container narrow">
             <form action="">
-
                 <div class="form-unit">
                     <label for="name">Nombre</label>
                     <input type="text" name="name" id="" placeholder="Nombre">
@@ -76,6 +78,24 @@
                         <option value="fac">Facilitadores</option>
                         <option value="comp">Compras</option>
                     </select>
+                </div>
+
+                <div class="form-unit">
+                    <label>Mala práctica</label>
+                    <fieldset>
+                        <input id="miente" type="checkbox" name="toppings" value="miente">
+                        <label for="miente">Miente</label>
+                        <input id="dificulta" type="checkbox" name="toppings" value="dificulta">
+                        <label for="dificulta">Dificulta</label>
+                        <input id="invade" type="checkbox" name="toppings" value="invade">
+                        <label for="invade">Invade</label>
+                        <input id="confunde" type="checkbox" name="toppings" value="confunde">
+                        <label for="confunde">Confunde</label>
+                    </fieldset>
+                </div>
+                <div class="form-unit">
+                    <label for="descripcion">Descripción</label>
+                    <textarea name="" id="descripcion" cols="30" rows="10"></textarea>
                 </div>
             </form>
         </div>

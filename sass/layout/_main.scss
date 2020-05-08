@@ -1,32 +1,47 @@
 main {
     margin-bottom: 2em;
     color: white;
-    min-height: 80vh;
 }
 
-.container {
-    position: relative;
-    width: 100%;
-    max-width: $width-max;
-    margin: 0 auto;
+p {
+    font-weight: 400;
+    font-size: $font-size-lg;
+    text-align: justify;
+    line-height: $font-size-lg * 1.4;
+    margin-bottom: $font-size-lg * 1.4;
 }
 
 .col2 {
     position: relative;
     display: grid;
-    grid-template-columns: 9fr 5fr;
-    grid-gap: 3em;
+    grid-template-columns: 3fr 2fr;
+    grid-gap: 2em;
+}
+
+.col5 {
+    position: relative;
+    display: grid;
+    grid-gap: 2em;
+    grid-template-columns: repeat(5, 1fr);
+    h3 {
+        column-span: all;
+    }
+    article {
+        column-span: 1;
+    }
 }
 
 .hero {
     color: white;
     font-size: $font-size-hero;
     font-weight: 600;
+    line-height: $font-size-hero;
+    text-align: left;
 }
 
 .action {
     display: inline-block;
-    text-align: center;
+    color: white;
     vertical-align: middle;
     .btn {
         text-transform: none;
@@ -39,5 +54,16 @@ main {
         &:hover {
             background-color: $color-black-fade;
         }
+    }
+}
+
+article {
+    color: white;
+    h4 {
+        font-size: $font-size * 1.5;
+        color: $color-green;
+    }
+    p {
+        text-align: left;
     }
 }
