@@ -37,7 +37,10 @@ a {
     width: 100%;
     max-width: $width-max;
     margin: 0 auto;
-    padding: 0 1em;
+    padding: 0 2rem;
+    p.lg {
+        margin: 2em 0;
+    }
 }
 
 h1 {

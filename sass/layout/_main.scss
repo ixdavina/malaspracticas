@@ -55,6 +55,9 @@ p {
     display: inline-block;
     color: white;
     vertical-align: middle;
+    p {
+        text-align: left
+    }
     .btn {
         text-transform: none;
         letter-spacing: normal;
