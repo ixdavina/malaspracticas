@@ -1,6 +1,6 @@
 main {
     margin-bottom: 2em;
-    color: white;
+    color: $color-white;
 }
 
 p {
@@ -28,15 +28,27 @@ p {
     }
     article {
         column-span: 1;
+        transition: all .7s ease-in;
+        &:hover{
+            transform: scale(1.333);
+            transform: ;
+        }
         p {
             a {
-                //display: inline-block;
+                display: inline-block;
+                text-transform: lowercase;
+                color: $color-white;
+                font-weight: 600;
+                font-size: $font-size * .85;
+                line-height: 130%;
+                border: .25ex solid $color-white-fade;
+                padding: .1ex .4em;
+                border-radius: .61ex;
                 transition: all 0.5s ease;
-                color: $color-cyan;
-                font-weight: 400;
                 &:hover {
-                    color: white;
-                    animation: infame-skew 1s infinite linear alternate-reverse;
+                    border-color: $color-white;
+                    background-color: $color-black-fade;
+                    // animation: infame-skew 1s infinite linear alternate-reverse;
                 }
             }
         }
@@ -44,7 +56,7 @@ p {
 }
 
 .hero {
-    color: white;
+    color: $color-white;
     font-size: $font-size-hero;
     font-weight: 600;
     line-height: $font-size-hero;
@@ -53,7 +65,7 @@ p {
 
 .action {
     display: inline-block;
-    color: white;
+    color: $color-white;
     vertical-align: middle;
     p {
         text-align: left
@@ -61,7 +73,7 @@ p {
     .btn {
         text-transform: none;
         letter-spacing: normal;
-        color: white;
+        color: $color-white;
         border: 2px solid white;
         font-size: $font-size-hero/1.5;
         vertical-align: middle;
@@ -73,7 +85,7 @@ p {
 }
 
 article {
-    color: white;
+    color: $color-white;
     h4 {
         font-size: $font-size * 1.5;
         color: $color-green;

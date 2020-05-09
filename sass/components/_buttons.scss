@@ -12,6 +12,6 @@
     transition: all .5s ease;
     &:hover {
         background-color: $color-main;
-        color: white;
+        color: $color-white;
     }
 }

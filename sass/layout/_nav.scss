@@ -18,21 +18,21 @@
             }
             &:first-child {
                 a {
-                    color: white;
+                    color: $color-white;
                     font-weight: 700;
                 }
             }
             a {
                 transition: all 1s ease;
                 font-weight: 300;
-                color: white;
+                color: $color-white;
                 &:hover {
                     color: $color-pink;
                 }
             }
             &::before {
                 display: inline-block;
-                color: white;
+                color: $color-white;
                 content: '>';
                 position: relative;
                 left: -.7ex;
