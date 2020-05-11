@@ -10,8 +10,6 @@ header {
             hyphens: auto;
             text-shadow: -3px 3px $color-green;
             span {
-                display: inline-block;
-                transform: rotate(180deg);
                 text-shadow: 3px -3px $color-green;
             }
         }
@@ -23,3 +21,4 @@ header {
         }
     }
 }
+

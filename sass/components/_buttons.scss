@@ -1,4 +1,6 @@
 .btn {
+    position: relative;
+    z-index: 25;
     display: inline-block;
     font-size: $font-size;
     text-align: center;

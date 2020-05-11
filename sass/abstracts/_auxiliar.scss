@@ -16,6 +16,11 @@
     width: 75%;
 }
 
+.rot180{
+    display: inline-block;
+    transform: rotate(180deg);
+}
+
 .infame {
     font-weight: 300;
     display: inline-block;
