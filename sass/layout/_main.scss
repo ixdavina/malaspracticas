@@ -29,9 +29,6 @@ p {
     article {
         column-span: 1;
         transition: all .7s ease-in;
-        &:hover{
-            transform: scale(1.333);
-            transform: ;
         }
         p {
             a {
@@ -41,15 +38,16 @@ p {
                 font-weight: 600;
                 font-size: $font-size * .85;
                 line-height: 130%;
-                border: .25ex solid $color-white-fade;
+                border: .25ex solid transparent;
                 padding: .1ex .4em;
                 border-radius: .61ex;
                 transition: all 0.5s ease;
                 &:hover {
-                    border-color: $color-white;
+                    border-color: $color-white-fade;
                     background-color: $color-black-fade;
                     // animation: infame-skew 1s infinite linear alternate-reverse;
-                }
+                    transform: scale(1.1);
+                
             }
         }
     }
