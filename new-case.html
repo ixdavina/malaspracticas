@@ -66,41 +66,98 @@
         <div class="container narrow">
             <h1>Nuevo caso <span class="infame">infame</span> </h1>
 
-            <p class="lg">Gracias por compartir un caso que consideras <strong>nefasto</strong>. Publicar estos casos sirve de presedente y argumento para evitar que se sigan produciendo en nuestra industria.</p>
+            <p class="lg">Gracias por compartir un caso que consideras <strong>nefasto</strong>. Publicar estos casos
+                sirve de precedente y argumento para evitar que se sigan produciendo en nuestra industria.</p>
         </div>
 
         <div class="container narrow">
-            <form action="">
-                <div class="form-unit">
+        <!-- https://docs.google.com/forms/d/1M1Appb-ey1Rt1JhrOgTo_rd5OefpWj0l5z641UHUx1o/edit -->
+            <form 
+                action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSe6bFsmP4vwR_5fLL1P0711PdS4BoFQWYcfDpJ0yLRd6_82aA/formResponse"
+                method="POST">
+                <div class="form-unit required">
                     <label for="name">Nombre del Servicio</label>
-                    <input type="text" name="name" id="" placeholder="Nombra la empresa o sitio">
+                    <input type="text" placeholder="Nombra la empresa o sitio" name="entry.263048947">
                 </div>
 
-                <div class="form-unit">
-                    <label for="url">Url</label>
-                    <input type="text" name="url" id="" placeholder="Dirección web del ejemplo">
-                </div>
-
-                <div class="form-unit">
-                    <label for="fecha">Fecha de Registro</label>
-                    <input type="date" name="fecha" id="" placeholder="Fecha de registro">
-                </div>
-
-                <div class="form-unit">
-                    <label for="categoria">Categoría</label>
-                    <select name="categoria">
-                        <option disabled selected value> -- Selecciona una categoría -- </option>
-                        <option value="adm">Administración</option>
-                        <option value="cont">Contenido</option>
-                        <option value="seg">Seguridad</option>
-                        <option value="fac">Facilitadores</option>
-                        <option value="comp">Compras</option>
+                <div class="form-unit required">
+                    <label for="canal">Canal</label>
+                    <select name="entry.276316640">
+                        <option disabled selected value> -- Selecciona un canal -- </option>
+                        <optgroup label="Web">
+                            <option value="web-d">Escritorio</option>
+                            <option value="web-m">Móvil</option>
+                        </optgroup>
+                        <optgroup label="App">
+                            <option value="app-a">Android</option>
+                            <option value="app-i">iOS</option>
+                        </optgroup>
+                        <optgroup label="Otro">
+                            <option value="tel">Telefónico</option>
+                            <option value="pres">Presencial</option>
+                        </optgroup>
                     </select>
                 </div>
 
                 <div class="form-unit">
+                    <label for="url">Url</label>
+                    <input type="text" name="entry.1018248698" id="rul" placeholder="Dirección web del ejemplo, si aplica">
+                </div>
+
+                <div class="form-unit required">
+                    <label for="fecha">Fecha de Registro</label>
+                    <input type="date" name="entry.990227257_year" id="fecha" placeholder="Fecha de registro">
+                </div>
+
+                <div class="form-unit required">
+                    <label for="categoria">Categoría</label>
+                    <select id="categoria" name="entry.1787918976">
+                        <option disabled selected value> -- Selecciona una categoría -- </option>
+                        <optgroup label="Cuenta">
+                            <option value="">verificación</option>
+                            <option value="">cambio de plan</option>
+                            <option value="">preferencias</option>
+                            <option value="">mensajería</option>
+                            <option value="">desuscripción</option>
+                            <option value="">eliminar pago</option>
+                            <option value="">cierre de cuenta</option>
+                        </optgroup>
+                        <optgroup label="Publicación">
+                            <option value="">compartir</option>
+                            <option value="">comentar</option>
+                            <option value="">calificar</option>
+                            <option value="">borrar</option>
+                        </optgroup>
+                        <optgroup label="Credenciales">
+                            <option value="">autenticación</option>
+                            <option value="">creación</option>
+                            <option value="">solicitud de permisos</option>
+                            <option value="">conectar aplicaciones</option>
+                            <option value="">captcha</option>
+                            <option value="">recuperación</option>
+                            <option value="">cambiar contraseña</option>
+                        </optgroup>
+                        <optgroup label="Contenido">
+                            <option value="">contenido completo</option>
+                            <option value="">recomendación</option>
+                            <option value="">segmentación</option>
+                            <option value="">predicción</option>
+                            <option value="">wizards</option>
+                            <option value="">notificaciones</option>
+                        </optgroup>
+                        <optgroup label="Compras">
+                            <option value="">comparación</option>
+                            <option value="">trackeo de envíos</option>
+                            <option value="">formas de pago</option>
+                            <option value="">carros de compra</option>
+                            <option value="">upgrades</option>
+                        </optgroup>
+                    </select>
+                </div>
+
+                <div class="form-unit required">
                     <label>Mala práctica</label>
-                    <fieldset>
+                    <fieldset name="entry.2080055149">
                         <input id="miente" type="checkbox" name="toppings" value="miente">
                         <label for="miente">Miente</label>
                         <input id="dificulta" type="checkbox" name="toppings" value="dificulta">
@@ -111,15 +168,17 @@
                         <label for="confunde">Confunde</label>
                     </fieldset>
                 </div>
-                <div class="form-unit">
+                <div class="form-unit required">
                     <label for="descripcion">Descripción</label>
-                    <textarea name="" id="descripcion" cols="30" rows="10" placeholder="Explica detalladamente por qué esta práctica es nefasta y en qué tipo(s) de maldad incurre. De ser posible, indica qué se debió haber hecho."></textarea>
+                    <textarea name="entry.1457125861" id="descripcion" cols="30" rows="10"
+                        placeholder="Explica detalladamente por qué esta práctica es nefasta y en qué tipo(s) de maldad incurre. De ser posible, indica qué se debió haber hecho."></textarea>
                 </div>
                 <div class="form-unit">
                     <label for="upload">Evidencias</label>
-                    <div><input type="file" name="upload" id=""><br><small>Sube un archivo <strong>ZIP</strong> con pantallazos, audios o lo que estimes necesario para documentar el caso.</small></div>
-
+                    <div><input type="file" name="entry.6433205" id="upload"><br><small>Sube un archivo <strong>ZIP</strong> con
+                            pantallazos, audios o lo que estimes necesario para documentar el caso.</small></div>
                 </div>
+                <input type="submit" />
             </form>
         </div>
 
@@ -127,7 +186,9 @@
 
     <footer>
         <div class="container ">
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus vitae vel eius. Velit, saepe optio? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, unde vitae! Error, voluptatem odio. Recusandae ea beatae, quidem error modi
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus vitae vel eius. Velit, saepe optio? Lorem
+                ipsum dolor sit amet consectetur adipisicing elit. Ratione, unde vitae! Error, voluptatem odio.
+                Recusandae ea beatae, quidem error modi
                 voluptatum et, eius sapiente odio labore quisquam corrupti eligendi tenetur.</p>
         </div>
     </footer>

@@ -102,14 +102,12 @@ url: https://www.youtube.com/watch?v=DZg6UfS5zYg
         visibility: hidden;
 
         .navs-wrap {
+            clip-path: polygon(0% 0%, 100% 0%, 100% 83%, 0% 100%);
             background-color: $color-black-fade;
             width: 100vw;
             transform: translateY(-50vh);
             flex: none;
-            
-            justify-content: center;
             transition: all 0.4s ease;
-            
             .nav-columns{
                 max-width: $max-width;
                 margin: 0 auto;
@@ -135,24 +133,26 @@ url: https://www.youtube.com/watch?v=DZg6UfS5zYg
                     li{
                         list-style-type: none;
                         display: inline-block;
-                        width: 5.5em;
-                        height: 5.5em;
+                        // width: 5.5em;
+                        // height: 5.5em;
                         margin: 0 2em .53m 0;
                         a{
                             position: relative;
                             text-align: center;
-                            border: .25pt solid $color-white;
+                            border: .25pt solid transparent;
+                            background-color: $color-black-fade;
                             border-radius: 50%;
                             padding: 2em 0 0 0;
                             margin-left: 0;
                             color: $color-white;
-                            font-weight: 200;
+                            font-weight: 400;
                             display: inline-block;
                             width: 5.5em;
                             height: 5.5em;
+                            transition: all .5s ease;
                             &:hover{
-                                font-weight: 300;
                                 background-color: $color-black-fade;
+                                border: .25pt solid $color-white;
                             }
                         }
                       
@@ -174,13 +174,15 @@ url: https://www.youtube.com/watch?v=DZg6UfS5zYg
                         a {
                             font-weight: 200;
                             color: $color-white;
+                            transition: all .5s ease;
                             border: .25pt solid transparent;
                             display: inline-block;
                             padding: .4ex 1ex;
-                            transition: color 0.4s ease;
+                            transition: all 0.4s ease;
+                            border-radius: .5ex;
                             &:hover{
-                                border: 1px solid $color-white;
-                                border-radius: .5ex;
+                                border: .25pt solid $color-white;
+                                
                             }
                         }
                     }

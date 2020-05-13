@@ -11,9 +11,17 @@ form {
     grid-template-columns: 30% 70%;
     grid-gap: 1em;
     margin: 1.5ex 0;
+
+    &.required{
+        input{
+            &:focus{
+                border:.2ex solid $color-pink;
+            }
+           
+        }
+    }
     label {
         position: relative;
-        display: inline-block;
         font-weight: 800;
         text-align: right;
         top: .35ex;
@@ -44,7 +52,7 @@ input,
 select,
 textarea {
     color: $color-white;
-    border: .2ex solid white;
+    border: .2ex solid $color-white;
     background-color: transparent;
     border-radius: .5ex;
     padding: 1ex 1em;
