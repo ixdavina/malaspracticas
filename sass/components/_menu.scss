@@ -5,6 +5,7 @@ url: https://www.youtube.com/watch?v=DZg6UfS5zYg
         
 .menu-wrap {
     position: fixed;
+    font-family: "Raleway";
     z-index: 10;
     top: 0;
     left: 0;
@@ -127,31 +128,65 @@ url: https://www.youtube.com/watch?v=DZg6UfS5zYg
 
                 h4 {
                     font-size: 1.2rem;
+                    margin: 0 0 1em 0;
                 }
 
                 &#main-nav {
-                    font-family: upgrade-lights, sans-serif;
-                    font-weight: 500;
-                    font-style: normal;
+                    li{
+                        list-style-type: none;
+                        display: inline-block;
+                        width: 5.5em;
+                        height: 5.5em;
+                        margin: 0 2em .53m 0;
+                        a{
+                            position: relative;
+                            text-align: center;
+                            border: .25pt solid $color-white;
+                            border-radius: 50%;
+                            padding: 2em 0 0 0;
+                            margin-left: 0;
+                            color: $color-white;
+                            font-weight: 200;
+                            display: inline-block;
+                            width: 5.5em;
+                            height: 5.5em;
+                            &:hover{
+                                font-weight: 300;
+                                background-color: $color-black-fade;
+                            }
+                        }
+                      
+                    }
                 }
 
                 &#cat-nav {
                     font-family: upgrade, sans-serif;
-                    font-weight: 500;
+        
                     font-style: normal;
-                }
 
-                li {
-                    list-style: none;
-                    font-size: 1.2rem;
-                    
-                    a {
-                        color: $color-white;
-                        display: inline-block;
-                        padding: .4ex 1ex;
-                        transition: color 0.4s ease;
+                    h4{ font-weight: 800;}
+
+                    li {
+                        
+                        font-size: 1.2rem;
+                        line-height: 137%;
+                        list-style-type: square;
+                        a {
+                            font-weight: 200;
+                            color: $color-white;
+                            border: .25pt solid transparent;
+                            display: inline-block;
+                            padding: .4ex 1ex;
+                            transition: color 0.4s ease;
+                            &:hover{
+                                border: 1px solid $color-white;
+                                border-radius: .5ex;
+                            }
+                        }
                     }
+                    
                 }
+                
             }
         }
     }
