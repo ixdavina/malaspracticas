@@ -22,6 +22,11 @@
     transform: rotate(180deg);
 }
 
+.right{
+    text-align: right;
+    margin-right: -1em;
+}
+
 .infame {
     font-weight: 300;
     display: inline-block;
@@ -63,7 +68,7 @@
 }
 
 
-/* Creates an animation with 20 steaps. For each step, it calculates a percentage for the specific step. It then generates a random clip box to be used for the random infame effect. Also adds a very subtle skew to change the 'thickness' of the infame.*/
+/* Creates an animation with 20 steps. For each step, it calculates a percentage for the specific step. It then generates a random clip box to be used for the random infame effect. Also adds a very subtle skew to change the 'thickness' of the infame.*/
 
 @keyframes infame-anim {
     0% {

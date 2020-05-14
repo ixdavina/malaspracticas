@@ -4,7 +4,7 @@ url: https://www.youtube.com/watch?v=DZg6UfS5zYg
 */
         
 .menu-wrap {
-    position: fixed;
+    position: absolute;
     font-family: "Raleway";
     z-index: 10;
     top: 0;
@@ -67,7 +67,7 @@ url: https://www.youtube.com/watch?v=DZg6UfS5zYg
         width: $nav-block-size;
         height: $nav-block-size;
         padding: 1rem;
-        background: $color-black-fade;
+        background: $color-dark-fade;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -103,7 +103,7 @@ url: https://www.youtube.com/watch?v=DZg6UfS5zYg
 
         .navs-wrap {
             clip-path: polygon(0% 0%, 100% 0%, 100% 83%, 0% 100%);
-            background-color: $color-black-fade;
+            background-color: $color-dark-fade;
             width: 100vw;
             transform: translateY(-50vh);
             flex: none;
@@ -140,7 +140,7 @@ url: https://www.youtube.com/watch?v=DZg6UfS5zYg
                             position: relative;
                             text-align: center;
                             border: .25pt solid transparent;
-                            background-color: $color-black-fade;
+                            background-color: $color-dark-fade;
                             border-radius: 50%;
                             padding: 2em 0 0 0;
                             margin-left: 0;
@@ -151,7 +151,7 @@ url: https://www.youtube.com/watch?v=DZg6UfS5zYg
                             height: 5.5em;
                             transition: all .5s ease;
                             &:hover{
-                                background-color: $color-black-fade;
+                                background-color: $color-dark-fade;
                                 border: .25pt solid $color-white;
                             }
                         }

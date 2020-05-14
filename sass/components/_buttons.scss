@@ -2,18 +2,18 @@
     position: relative;
     z-index: 25;
     display: inline-block;
+    cursor: pointer;
     font-size: $font-size;
     text-align: center;
     letter-spacing: .25ex;
     font-weight: 600;
     text-transform: uppercase;
-    color: $color-main;
+    color: $color-white;
     padding: .3ex .5em .5ex .5em;
-    border: 2px solid $color-main;
+    border: .2ex solid $color-white;
     border-radius: .31ex;
     transition: all .5s ease;
     &:hover {
-        background-color: $color-main;
-        color: $color-white;
+        background-color: $color-dark-fade;
     }
 }

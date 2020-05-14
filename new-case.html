@@ -66,8 +66,7 @@
         <div class="container narrow">
             <h1>Nuevo caso <span class="infame">infame</span> </h1>
 
-            <p class="lg">Gracias por compartir un caso que consideras <strong>nefasto</strong>. Publicar estos casos
-                sirve de precedente y argumento para evitar que se sigan produciendo en nuestra industria.</p>
+            <p class="lg">Gracias por compartir un caso que consideras <strong>nefasto</strong>. Publicar estos casos nos sirve de precedente y argumento para evitar que se sigan produciendo malas prácticas en la industria UX.</p>
         </div>
 
         <div class="container narrow">
@@ -85,12 +84,12 @@
                     <select name="entry.276316640">
                         <option disabled selected value> -- Selecciona un canal -- </option>
                         <optgroup label="Web">
-                            <option value="web-d">Escritorio</option>
-                            <option value="web-m">Móvil</option>
+                            <option value="web-desktop">Escritorio</option>
+                            <option value="web-mobile">Móvil</option>
                         </optgroup>
                         <optgroup label="App">
-                            <option value="app-a">Android</option>
-                            <option value="app-i">iOS</option>
+                            <option value="app-android">Android</option>
+                            <option value="app-iOS">iOS</option>
                         </optgroup>
                         <optgroup label="Otro">
                             <option value="tel">Telefónico</option>
@@ -101,12 +100,12 @@
 
                 <div class="form-unit">
                     <label for="url">Url</label>
-                    <input type="text" name="entry.1018248698" id="rul" placeholder="Dirección web del ejemplo, si aplica">
+                    <input type="text" name="entry.1018248698" id="url" placeholder="Dirección web del ejemplo, si aplica">
                 </div>
 
                 <div class="form-unit required">
                     <label for="fecha">Fecha de Registro</label>
-                    <input type="date" name="entry.990227257_year" id="fecha" placeholder="Fecha de registro">
+                    <input type="date" name="entry.990227257" id="fecha" placeholder="Fecha de registro">
                 </div>
 
                 <div class="form-unit required">
@@ -177,11 +176,12 @@
                     <label for="upload">Evidencias</label>
                     <div><input type="file" name="entry.6433205" id="upload"><br><small>Sube un archivo <strong>ZIP</strong> con
                             pantallazos, audios o lo que estimes necesario para documentar el caso.</small></div>
+                    </div>
+                <div class="right">
+                    <input type="submit" value="Enviar Caso">
                 </div>
-                <input type="submit" />
             </form>
         </div>
-
     </main>
 
     <footer>

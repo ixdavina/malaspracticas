@@ -34,6 +34,9 @@
         margin: 1em 0;
         .form-unit{
             display: block;
+            &:after{
+                top: .8ex;
+            }
             label{
                 text-align: left;
                 font-size: $font-size;
@@ -45,7 +48,19 @@
             textarea{
                 width: 100%;
             }
+            &.required{
+                &:after{
+                    right: -25px;
+                }
+            }
+
+            input[type="checkbox"]{
+                width: 1ex;
+            }
         }
     }
 
+    .right{
+        margin-right: 0;
+    }
 }
