@@ -161,16 +161,12 @@ url: https://www.youtube.com/watch?v=DZg6UfS5zYg
 
                 &#cat-nav {
                     font-family: upgrade, sans-serif;
-        
                     font-style: normal;
-
-                    h4{ font-weight: 800;}
-
+                    // h4{ font-weight: 800;}
                     li {
-                        
                         font-size: 1.2rem;
                         line-height: 137%;
-                        list-style-type: square;
+                        list-style-type: none;
                         a {
                             font-weight: 200;
                             color: $color-white;
