@@ -11,6 +11,10 @@ p {
     margin-bottom: $font-size-lg * 1.4;
 }
 
+img{
+    max-width: 100%;
+}
+
 .col2 {
     position: relative;
     display: grid;
