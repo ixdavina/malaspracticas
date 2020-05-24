@@ -7,35 +7,35 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   sodipodi:docname="icn-contacto.svg"
-   inkscape:version="1.0 (6e3e5246a0, 2020-05-07)"
-   id="svg1539"
-   version="1.1"
-   viewBox="0 0 23.283333 23.283334"
+   width="88"
    height="88"
-   width="88">
+   viewBox="0 0 23.283333 23.283334"
+   version="1.1"
+   id="svg1539"
+   inkscape:version="1.0 (6e3e5246a0, 2020-05-07)"
+   sodipodi:docname="icn-contacto.svg">
   <defs
      id="defs1533" />
   <sodipodi:namedview
-     inkscape:window-maximized="1"
-     inkscape:window-y="0"
-     inkscape:window-x="0"
-     inkscape:window-height="1043"
-     inkscape:window-width="1920"
-     units="px"
-     showgrid="false"
-     inkscape:document-rotation="0"
-     inkscape:current-layer="layer1"
-     inkscape:document-units="mm"
-     inkscape:cy="49.89991"
-     inkscape:cx="34.234701"
-     inkscape:zoom="7.9195959"
-     inkscape:pageshadow="2"
-     inkscape:pageopacity="0"
-     borderopacity="1.0"
-     bordercolor="#666666"
+     id="base"
      pagecolor="#000000"
-     id="base" />
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="7.9195959"
+     inkscape:cx="34.234701"
+     inkscape:cy="60.001436"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1920"
+     inkscape:window-height="1043"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1" />
   <metadata
      id="metadata1536">
     <rdf:RDF>
@@ -44,26 +44,38 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <g
-     id="layer1"
+     inkscape:label="Capa 1"
      inkscape:groupmode="layer"
-     inkscape:label="Capa 1">
+     id="layer1">
     <rect
-       ry="0.6598866"
-       y="7.342083"
-       x="6.5563803"
-       height="7.7908354"
-       width="10.170573"
+       style="fill:none;stroke:#ffffff;stroke-width:0.264583;stroke-miterlimit:4;stroke-dasharray:none"
        id="rect2102"
-       style="fill:none;stroke:#ffffff;stroke-width:0.228031" />
+       width="10.170573"
+       height="7.7908354"
+       x="6.5563803"
+       y="7.342083"
+       ry="0.6598866" />
     <path
-       sodipodi:nodetypes="cssc"
-       d="m 6.5289379,8.0981364 4.7393681,3.5782076 c 0.206924,0.156228 0.539797,0.156228 0.746721,0 l 4.739368,-3.5782076"
-       style="fill:none;stroke:#fffffd;stroke-width:0.230522;stroke-opacity:1"
-       id="rect2137" />
+       id="rect2137"
+       style="fill:none;stroke:#fffffd;stroke-width:0.264583;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 6.5289381,8.0981364 4.7393679,3.5782076 c 0.206924,0.156228 0.539797,0.156228 0.746721,0 l 4.739368,-3.5782076"
+       sodipodi:nodetypes="cssc" />
+    <g
+       transform="matrix(1,0,0,1.1666007,-0.05427888,-1.7289474)"
+       id="g846">
+      <path
+         style="fill:none;stroke:#ffffff;stroke-width:0.132292;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 10.384475,11.000537 6.6016441,13.554049"
+         id="path840" />
+      <path
+         id="path842"
+         d="m 13.007416,11.000537 3.782831,2.553512"
+         style="fill:none;stroke:#ffffff;stroke-width:0.132292;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
   </g>
 </svg>
