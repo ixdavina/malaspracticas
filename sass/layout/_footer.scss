@@ -1,9 +1,14 @@
 footer {
     background-color: $color-dark-fade;
-    color: $color-white;
+    color: $color-white-fade;
     padding: 1em;
+
     p {
         font-size: $font-size * 0.8;
         line-height: $font-size;
+    }
+
+    a{color: $color-white;
+    &:hover{text-decoration: underline}
     }
 }

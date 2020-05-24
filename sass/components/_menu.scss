@@ -151,8 +151,20 @@ url: https://www.youtube.com/watch?v=DZg6UfS5zYg
                             height: 5.5em;
                             transition: all .5s ease;
                             &:hover{
+                                color: transparent;
                                 background-color: $color-dark-fade;
                                 border: .25pt solid $color-white;
+                                text-shadow: none;
+                            }
+                            &.participa{
+                                &:hover{
+                                    background-image: url("../img/icn-participa.svg");
+                                }
+                            }
+                            &.contacto{
+                                &:hover{
+                                    background-image: url("../img/icn-contacto.svg");
+                                }
                             }
                         }
                       
