@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/ixdavina/malaspracticas#readme",
   "devDependencies": {
-    "@11ty/eleventy": "^0.10.0"
+    "@11ty/eleventy": "^1.0.2"
   },
   "dependencies": {
     "nunjucks": "^3.2.1"
